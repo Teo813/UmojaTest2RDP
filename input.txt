@@ -1,0 +1,12 @@
+while (x > 0) {
+    if (y >= 10) {
+        z = x + y;
+    } else {
+        z = x - y;
+    }
+    x = z % 5;
+    DataType a, b, c;
+    a = (x * y) + z;
+    b = a / 2;
+    c = b - y;
+};
